@@ -31,7 +31,7 @@ function menuFor(day, sheets) {
 
       res.data.values.forEach(function(row) {
         const category = row[0].trim()
-        const today = row[day].trim()
+        const today = (row[day] || "").trim()
         menu[category] = today || 'I do not know'
       })
 
