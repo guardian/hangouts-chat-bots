@@ -23,7 +23,7 @@ function menuFor(day, sheets) {
   return new Promise((resolve, reject) => {
     sheets.spreadsheets.values.get({
       spreadsheetId: '1uzlk8dpvDeHOe6cAdBnAq8W62WHjPSq-2MC5q82TKKQ',
-      range: 'weekly menu!A6:F12'
+      range: 'weekly menu!A5:F12'
     }, (err, res) => {
       if (err) return reject(err)
 
