@@ -5,7 +5,7 @@
   "author": "Sam Desborough <sam.desborough@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "google-auth-library": "^4.2.6",
-    "googleapis": "^40.0.1"
+    "google-auth-library": "^9.0.0",
+    "googleapis": "^123.0.0"
   }
 }
